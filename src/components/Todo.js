@@ -19,5 +19,5 @@ export default Todo;
 
 // C-REATE todo (POST)
 // R-EAD - GET ALL todos (GET)
-// U-PDATE todo (PUT)
+// U-PDATE todo (PUT/POST/PATCH)
 // D-ELETE todo (DELETE)

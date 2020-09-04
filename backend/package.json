@@ -7,7 +7,6 @@
 	"author": "y",
 	"license": "y",
 	"private": true,
-	"type": "module",
 	"scripts": {
 		"dev": "nodemon ./server.js"
 	},
