@@ -1,0 +1,21 @@
+{
+	"name": "todo_backend",
+	"version": "1.0.0",
+	"description": "todo server_side",
+	"main": "server.js",
+	"repository": "y",
+	"author": "y",
+	"license": "y",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon ./server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.10.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
