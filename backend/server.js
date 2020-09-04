@@ -29,6 +29,7 @@ app.get("/api/todos", (req, res, next) => {
 app.post("/api/todos", (req, res, next) => {
 	res.body;
 	if (req.body.item) {
+		id = id + 1;
 		const newTodo = {
 			id: id,
 			item: req.body.item,
