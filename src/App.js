@@ -1,14 +1,14 @@
 import React from "react";
-import Todo from "./components/Todo.js";
 import "./App.css";
+import TodoList from "./TodoList";
 
-function App() {
+const App = () => {
 	return (
-		<div className="app">
-			<h1>My Todo App</h1>
-			<Todo />
-		</div>
+		<>
+			<h1>To Do App</h1>
+			<TodoList />
+		</>
 	);
-}
+};
 
 export default App;
